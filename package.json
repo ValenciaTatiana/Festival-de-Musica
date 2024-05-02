@@ -1,0 +1,22 @@
+{
+  "name": "festival-de-musica",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValenciaTatiana/Festival-de-Musica.git"
+  },
+  "author": "Tatiana Cuadros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValenciaTatiana/Festival-de-Musica/issues"
+  },
+  "homepage": "https://github.com/ValenciaTatiana/Festival-de-Musica#readme",
+  "devDependencies": {
+    "sass": "^1.76.0"
+  }
+}
