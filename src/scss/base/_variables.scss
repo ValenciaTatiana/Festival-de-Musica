@@ -1,12 +1,20 @@
 // Sass variables
 
-// font
+// Font
 $main_font : "Montserrat", sans-serif;
 
-// colors
+// Colors
 $fuchsia: #D20062;
 $purple: #D6589F;
+$yellow: #f9f224;
 $lilac: #D895DA;
 $blue_baby: #C4E4FF;
 $black: #000000;
 $white: #FFFFFF;
+
+// Media Queries
+
+$phone: 480px;
+$tablet: 768px;
+$desktop: 1200px;
+$desktopXL: 1400px;

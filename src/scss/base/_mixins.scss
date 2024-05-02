@@ -1,0 +1,25 @@
+@use 'variables' as v;
+
+@mixin phone {
+    @media (min-width: v.$phone) {
+        @content; // Permite agregar un contenido mas dinamico y deacuerdo a la estructura de los MQ 
+    }
+}
+
+@mixin tablet {
+    @media (min-width: v.$tablet) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: v.$desktop) {
+        @content;
+    }
+}
+
+@mixin desktopXL {
+    @media (min-width: v.$desktopXL) {
+        @content;
+    }
+}
