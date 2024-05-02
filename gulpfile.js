@@ -13,5 +13,5 @@ export function css( done ) {
 }
 
 export function dev() {
-    watch('src/scss/app.scss', css) // Cuando hayan cambios ejecuta la función css
+    watch('src/scss/**/*.scss', css) // Cuando hayan cambios ejecuta la función css, con los * se hace referencia que todos los datos que tengan la exteción scss se ejecute la función.
 }

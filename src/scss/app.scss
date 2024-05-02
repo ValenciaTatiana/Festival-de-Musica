@@ -1,8 +1,1 @@
-@use 'base/variables' as v; // Asi enlazamos otros archivos, con el archivo pricipal
-
-body {
-    // Con la v hacemos referecia de que estamos accediendo al archivo de las variables y estamos utilizando lo que allí se contiene.
-    font-family: v.$main_font; 
-    font-optical-sizing: auto;
-    font-style: normal;
-}
+@forward 'base';
