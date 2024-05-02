@@ -1,0 +1,49 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.video {
+    // El elemento padre siempre debe de tener posición relativa, esto nos permite agregar coordenadas a los elementos hijos
+    position: relative;
+    min-height: 50rem;
+    max-height: 70rem;
+    overflow: hidden;
+    .overlay {
+        position: absolute;
+        // Primero toma la dirección, ya sea inclinado o derecho el degradado y despues toma el color inicial y el final, el valor final tiene el porcentaje de oscuridad y que tanto se va a oscurecer en terminos de la imagen
+        background: linear-gradient(
+            270deg,
+            rgba(v.$blue_baby, 60%),
+            rgba( darken(v.$blue_baby, 30%), 30%)
+        );
+        inset: 0; // Cubre todo el div o el elemento padre
+        display: flex;
+        align-items: center;
+    }
+
+    video {
+        display: block;
+        width: auto;
+        @include m.desktop {
+            width: 100%;
+        }
+    }
+}
+
+.contenido-video {
+    z-index: 10; //Orden de forma horizontal, con este puedo traer un elemento que esta detras de otro
+
+    h2 {
+        font-size: 7rem;
+        margin: 0;
+    }
+
+    p{
+        color: v.$white;
+        background-color: v.$purple;
+        display: inline-block;
+        padding: 1rem 2rem;
+        font-size: 2.4rem;
+        font-weight: 700;
+        margin: 0;
+    }
+}
