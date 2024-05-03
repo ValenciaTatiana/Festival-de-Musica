@@ -44,6 +44,8 @@
             text-transform: uppercase;
             font-size: 2.2rem;
             padding: 1rem 0;
+            color: v.$black;
+            font-weight: 800;
         }
     }
     &-body {
@@ -63,13 +65,13 @@
         p {
             font-size: 2.8rem;
             font-weight: 900;
-            background-color: v.$yellow;
-            color: v.$black;
+            background-color: v.$blue_baby;
+            color: v.$fuchsia;
             padding: 1rem 0;
             border-radius: 1rem;
             cursor: pointer;
             &:hover {
-                background-color: darken(v.$yellow, 20% );
+                background-color: darken(v.$blue_baby, 20% );
             }
         }
     }

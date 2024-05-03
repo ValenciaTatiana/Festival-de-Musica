@@ -5,9 +5,9 @@ import gulpSass from 'gulp-sass' //Importar la función gulpSass de la carpeta g
 const sass = gulpSass(dartSass) // Compilar Sass utilizando Gulp y en donde econtrar las dependencias de Sass
 
 export function css( done ) {
-    src('src/scss/app.scss') // Bucamos el archivo en laruta y una vez encontrado ...
+    src('src/scss/app.scss', {sourcemaps: true}) // Buscamos el archivo en laruta y una vez encontrado ...
     .pipe( sass() ) // Pasa aca y es compilado y luego ...
-    .pipe( dest('dist/css') ) // Es almacenado aca.
+    .pipe( dest('dist/css', {sourcemaps: true}) ) // Es almacenado aca.
 
     done() // Para finalizar la ejecución de esta función
 }
