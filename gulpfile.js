@@ -20,7 +20,7 @@ export function css( done ) {
 
 export function dev() {
     watch('src/scss/**/*.scss', css) // Cuando hayan cambios ejecuta la función css, con los * se hace referencia que todos los datos que tengan la exteción scss se ejecute la función.
-    watch('src/js/**/*.js', css) 
+    watch('src/js/**/*.js', js) 
 }
 
 export default series( js, css, dev ) // series inicia una tarea y la finaliza, inicia la otra y la finaliza
