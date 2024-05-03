@@ -48,7 +48,7 @@
 
 .bg-lilac {
     background-color: v.$lilac;
-    li:nth-child(odd) {
+    li:nth-child(odd) { // Con odd queremor decir impares
         background-color: lighten(v.$lilac, 5%);
     }
 }
