@@ -14,6 +14,10 @@ body {
     font-style: normal;
     color: v.$black;
     font-size: 2rem;
+
+    &.overflow-hidden {
+        overflow: hidden; // Lo que este fuera del modal estara oculto y no se podra dar scroll
+    }
 }
 p {
     color: v.$black;

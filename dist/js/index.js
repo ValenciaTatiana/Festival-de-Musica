@@ -23,18 +23,38 @@ function crearGaleria() {
 }
 
 function mostrarModalImagenes(i) {
+    const imagen = document.createElement("IMG");
+    imagen.src = `src/img/gallery/full/${i}.jpg`;
+    imagen.alt = 'Imagen Galeria';
+
     // Generar modal
     const modal = document.createElement("DIV");
     modal.classList.add("modal");
     modal.onclick = cerrarModal;
 
+    // Btn cerrar modal
+    const btnCerrarModal = document.createElement("BUTTON");
+    btnCerrarModal.textContent = "X";
+    btnCerrarModal.classList.add("btn-cerrar");
+    modal.onclick = cerrarModal;
+
+    modal.appendChild(imagen);
+    modal.appendChild(btnCerrarModal);
+
     // Agg al HTML
     const body = document.querySelector("body");
+    body.classList.add("overflow-hidden")
     body.appendChild(modal)
 }
 
 function cerrarModal() {
     const modal = document.querySelector(".modal");
+    modal.classList.add("fade-out");
 
-    modal?.remove(); // Esto significa que si modal existe, se remueva.
+    setTimeout(() => {
+        modal?.remove(); // Esto significa que si modal existe, se remueva.
+
+        const body = document.querySelector("body");
+        body.classList.remove("overflow-hidden")
+    }, 500)
 }
