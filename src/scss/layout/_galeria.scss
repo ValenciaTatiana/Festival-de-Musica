@@ -1,0 +1,23 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.galeria {
+    @include m.contenedor;
+
+    &-imagenes {
+        @include m.grid(1, 2rem);
+        @include m.phone {
+            @include m.grid(2, 2rem);
+        }
+        @include m.tablet {
+            @include m.grid(3, 2rem);
+        }
+        @include m.desktop {
+            @include m.grid(4, 2rem);
+        }
+        img {
+            height: 20rem;
+            object-fit: cover; // Define cómo un elemento responde a la altura y el ancho de su cuadro de contenido.
+        }
+    }
+}
