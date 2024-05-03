@@ -13,7 +13,7 @@
         background: linear-gradient(
             270deg,
             rgba(v.$blue_baby, 60%),
-            rgba( darken(v.$blue_baby, 30%), 30%)
+            rgba( darken(v.$blue_baby, 10%), 30%)
         );
         inset: 0; // Cubre todo el div o el elemento padre
         display: flex;

@@ -47,7 +47,7 @@ img {
     height: auto;
     display: block;
 }
-body > section {
+body > section { // Este > indica que se le agregue el estilo al primer elemento hijo del elemento
     padding: 10rem 0
 }
 
