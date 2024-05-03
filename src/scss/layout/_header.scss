@@ -3,6 +3,16 @@
 
 .header {
     background-color: v.$fuchsia;
+
+    @include m.tablet {
+        &.fixed {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            box-shadow: .1rem .2rem .3rem #e2e2e2;
+        }
+    }
     
     .contenido-header {    
         padding: 2rem;
