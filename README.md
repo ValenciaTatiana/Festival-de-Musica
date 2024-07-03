@@ -4,7 +4,7 @@
 
 ## Descripción
 
-<p>Esta página web del Festival de Música Techno & EDM presenta una galería de fotos del evento, la programación detallada con todos los artistas y bandas participantes, y la opción para la compra de pases..</p>
+<p>Esta página web del Festival de Música Techno & EDM presenta una galería de fotos del evento, la programación detallada con todos los artistas y bandas participantes, y la opción para la compra de pases.</p>
 
 ## ⭐Elementos principales de la página
 
