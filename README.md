@@ -1,6 +1,6 @@
 # 🎉​ Festival de Musica 💥​🎶​
 
->‼️El presente proyecto forma parte de la realización del <em>Desarrollo Web Completo con HTML5, CSS3, JS AJAX, PHP y MySQL - Udemy</em>. Este curso tiene como objetivo dominar estas tecnologías desde cero. A lo largo del curso, se abordan los fundamentos del desarrollo web, se comparten las mejores prácticas de los programadores expertos y se enseña cómo crear un sitio web completo y dinámico desde el inicio hasta la implementación final.
+>‼️El presente proyecto forma parte de la realización del curso <em>Desarrollo Web Completo con HTML5, CSS3, JS AJAX, PHP y MySQL - Udemy</em>. Este curso tiene como objetivo dominar estas tecnologías desde cero. A lo largo del curso, se abordan los fundamentos del desarrollo web, se comparten las mejores prácticas de los programadores expertos y se enseña cómo crear un sitio web completo y dinámico desde el inicio hasta la implementación final.
 
 ## Descripción
 
