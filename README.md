@@ -20,6 +20,7 @@
   * HTML
   * SASS
   * JavaScript
+  * Node.js
 
 ### Cómo Ejecutar
 
